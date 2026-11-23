@@ -1,0 +1,2 @@
+- Well-Architected, Operational Excellence: "make frequent, small, reversible changes" reduces deployment risk and blast radius. "Scale horizontally" is a Reliability principle. Match the principle to the pillar before reading the options.
+- Well-Architected Tool lens limits: low exam value, verify in docs, don't memorize.
