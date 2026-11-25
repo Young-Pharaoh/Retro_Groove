@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: api
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/retrogroove}
+    username: ${DB_USER:retrogroove}
+    password: ${DB_PASSWORD:mypass123}
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+
+  flyway:
+    enabled: true
